@@ -21,12 +21,12 @@ body{font-family: 'Finlandica', sans-serif;}
 
 /*-------------- Footer div start from here ------------*/
 .footer{display: flex; width: 100%;}
-.footer > .left-div{width: 45%; height: auto; margin:3rem; margin-top: 7rem; box-shadow: 0rem 2rem 7rem black; font-size: 2rem; border-left: 1rem solid lime ; padding: 1rem; justify-content: center; border-radius: 4rem;}
-.footer > .right-div{width: 45%; height: auto; margin:3rem; margin-top: 7rem; box-shadow: 0rem 2rem 7rem black; font-size: 2rem; border-left:  1rem solid blue ; padding: 1rem; justify-content: center; ; border-radius: 4rem ; font-family: 'Open Sans', sans-serif;}
+.footer > .left-div{width: 45%; height: auto; margin:3rem; margin-top: 7rem; box-shadow: 0rem 2rem 7rem black; font-size: 2rem; border-left: 1rem solid lime ; padding: 1rem; justify-content: center; border-radius: 4rem; font-family: 'Finlandica', sans-serif;}
+.footer > .right-div{width: 45%; height: auto; margin:3rem; margin-top: 7rem; box-shadow: 0rem 2rem 7rem black; font-size: 2rem; border-left:  1rem solid blue ; padding: 1rem; justify-content: center; ; border-radius: 4rem ; font-family: 'Finlandica', sans-serif;}
 .footer> .left-div:hover{transform: scale(0.8); transition-duration: 3s;}
 .footer> .right-div:hover{transform: scale(0.8); transition-duration: 3s;}
 .sideImage2{height: 15rem; width:15rem; border-radius: 50%; border: 4rem solid rgba(0, 26, 255, 0.555) ; transform: translateX(-8rem); margin-top: -4rem;}
-.circlefooter{height: 5rem; width: 5rem; border-radius: 50%; background-image: linear-gradient(to left , rgba(233, 6, 203, 0.986) , rgba(0, 255, 255, 0.6)); margin-top: -6rem; transform: translateX(134rem); position: relative; position: relative; }
+.circlefooter{height: 5rem; width: 5rem; border-radius: 50%; background-image: linear-gradient(to left , rgba(233, 6, 203, 0.986) , rgba(0, 255, 255, 0.6)); margin-top: -6rem; transform: translateX(134rem); }
 /*-------------- Footer div end from here ------------*/
 
 button{background-image: linear-gradient(to right , orange , rgb(218, 16, 167)); padding:1.5rem; border: none; border-radius: 6rem;
