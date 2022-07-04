@@ -29,9 +29,19 @@ body{font-family: 'Finlandica', sans-serif;}
 .circlefooter{height: 5rem; width: 5rem; border-radius: 50%; background-image: linear-gradient(to left , rgba(233, 6, 203, 0.986) , rgba(0, 255, 255, 0.6)); margin-top: -6rem; transform: translateX(134rem); }
 /*-------------- Footer div end from here ------------*/
 
-button{background-image: linear-gradient(to right , orange , rgb(218, 16, 167)); padding:1.5rem; border: none; border-radius: 6rem;
+button{background-image: linear-gradient(to right , orange , rgb(218, 16, 167)); padding:1.5rem; width: 25rem; border: none; border-radius: 6rem;
 text-align: center; color: white; font-size: 3rem; margin-left: 35rem; text-transform: uppercase; box-shadow: 0 2rem 8rem rgb(4, 5, 4);
 font-family: 'Finlandica', sans-serif;
+}
+.btn{
+    background-image: linear-gradient(to right , orange , rgb(218, 16, 167)); padding:1.5rem; width: 45rem; border: none; border-radius: 6rem;
+    text-align: center; color: white; font-size: 3rem; margin-left: 35rem; text-transform: uppercase; box-shadow: 0 2rem 8rem rgb(4, 5, 4);
+    font-family: 'Finlandica', sans-serif 
+}
+.button{
+    background-image: linear-gradient(to right , rgb(9, 223, 252) , rgba(9, 105, 134, 0.705)); padding:1.5rem; width: 35rem; border: none; border-radius: 6rem;
+    text-align: center; color: white; font-size: 3rem; margin-left: -0.2rem; text-transform: uppercase; box-shadow: 0 2rem 8rem rgb(4, 5, 4);
+    font-family: 'Finlandica', sans-serif ; filter: brightness(2);
 }
 button:hover{cursor: pointer; background-color: white; color: lime; transition-duration: 1s;}
 a{text-decoration: none; color: white;}
